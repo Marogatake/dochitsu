@@ -14,7 +14,6 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
   margin: 0;
   padding: 0;
   text-decoration: none;
-
 }
 header{
   display: flex;
@@ -36,6 +35,7 @@ header a{
 }
 ol{
   padding-left: 45px;
+  padding-bottom: 30px;
 }
 dl{
   margin: 0;
@@ -79,6 +79,7 @@ dd:hover{
     width: 90%;
     margin-bottom: 30px;
     list-style: circle;
+    font-size: 30px;
   }
   input{
     margin-left: 25px;
