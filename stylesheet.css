@@ -4,10 +4,11 @@ body{
   min-width: 875px;
 }
 .wrapper{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   background-color: #fff;
   min-height: 1300px;
+  height: 100%;
 }
 h1,h2,h3,h4,h5,h6,a,ul,li{
   margin: 0;
@@ -33,14 +34,19 @@ header a{
   color: #952c3e;
   padding: 20px;
 }
+ol{
+  padding-left: 45px;
+}
 dl{
   margin: 0;
-  font-size: 25px;
+  font-size: 23px;
+
 }
 .page-1 li{
   margin-bottom: 25px;
 }
 dt{
+
 }
 dd{
   color:#CC3333	;
@@ -50,9 +56,11 @@ dd{
   margin-left: 25px;
 }
 input{
-  margin-left: 5px;
-  padding:5px;
-  width:35%;
+  margin-left: 3px;
+  padding:4px;
+  width:33%;
+  font-size: 20px;
+  margin-top: 7px;
 }
 dd:hover{
   background-color: #fff;
