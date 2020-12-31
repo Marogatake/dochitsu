@@ -9,14 +9,6 @@ body{
   background-color: #fff;
   min-height: 1300px;
 }
-@media screen and (max-width:1275px) {
-  body{
-    background:#fff;
-  }
-  .wrapper{
-    width: 98%;
-  }
-}
 h1,h2,h3,h4,h5,h6,a,ul,li{
   margin: 0;
   padding: 0;
@@ -63,4 +55,26 @@ input{
 }
 dd:hover{
   background-color: #fff;
+}
+
+@media screen and (max-width:1275px) {
+  body{
+    background:#fff;
+  }
+  .wrapper{
+    width: 98%;
+  }
+  ol li{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  input{
+    margin-left: 25px;
+    width: auto;
+  }
+  dd{
+    margin-top: 10px;
+  }
 }
