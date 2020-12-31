@@ -1,6 +1,7 @@
 body{
   margin: 0;
-    background-image: url(image/doi.jpg);
+  background-image: url(image/doi.jpg);
+  min-width: 575px;
 }
 .wrapper{
   width: 70%;
@@ -8,18 +9,36 @@ body{
   background-color: #fff;
   min-height: 1300px;
 }
+@media screen and (max-width:1275px) {
+  body{
+    background:#fff;
+  }
+  .wrapper{
+    width: 98%;
+  }
+}
 h1,h2,h3,h4,h5,h6,a,ul,li{
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 header{
-
-  /* opacity: 0.5; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px 0;
+  border-bottom: 2px solid #CC3333;
 }
 header h1{
   color: #000;
   padding: 20px 0 10px 30px;
-  border-bottom: 2px solid #CC3333;
+
+}
+header a{
+  font-size: 27px;
+  color: #952c3e;
+  padding: 20px;
 }
 dl{
   margin: 0;

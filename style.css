@@ -23,12 +23,13 @@ header h1{
 }
 ul{
   margin-top: 20px;
-}
-li{
-  margin-left: 10px;
+  list-style: circle;
 }
 a{
-  font-size: 25px;
-  padding: 10px;
+  font-size: 27px;
   color: green;
+}
+li{
+  padding: 10px;
+  margin-left: 10px;
 }
