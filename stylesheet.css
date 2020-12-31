@@ -83,6 +83,7 @@ dd:hover{
   input{
     margin-left: 25px;
     width: auto;
+    font-size: 30px;
   }
   dd{
     margin-top: 10px;
